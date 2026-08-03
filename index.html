@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style>
+       body {
+         overflow:hidden;
+         touch-action: none;
+         position:fixed;
+       }
+       #canvas {
+         position:absolute;
+         left:25%;
+         top:35%;
+       }
+#navi {
+  position: absolute;
+  
+  top: 0%;
+  
+}
+#inputan {
+  position: absolute;
+  
+  top: 10%;
+  
+}
+       #userInput {
+         width: 280px;
+         height: 50px;
+         font-size: 20px;
+       }
+
+       button {
+        height: 50px;
+        width: 100px;
+         font-size: 18px;
+      }
+       #send {
+         width: 50px;
+       }
+        
+   </style>
+</head>
+
+<body>
+	  <canvas id="bg-canvas"></canvas>
+<canvas id="canvas"></canvas>
+   <div id="navi">
+   <button id="btnMulai">Mulai Bicara</button>
+   <button id="output" onclick="alert(document.getElementById('teksbox').innerText)">Tampilkan Output</button>
+  <button id="exit-btn">Matikan Server</button>
+</div>
+<div id="inputan">
+	<input id="userInput">
+	<button id="send" onclick="sendMessage()">kirim</button>
+
+   </div>
+<p style="color:transparent;
+position:absolute; max-width: 400px" id="teksbox">....</p>
+   <script src="{{ url_for('static', filename='.assets/script.js') }}"></script>
+	<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
