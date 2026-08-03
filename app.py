@@ -126,9 +126,7 @@ async def generate_tts(text, output_path):
 @app.route('/')
 def index():
     return render_template('index.html')
-@app.route('/main.html')
-def main():
-    return render_template('main.html')
+
 @app.route('/chat', methods=['POST'])
 def chat():
     global chat_history, api_index
