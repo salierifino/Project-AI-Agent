@@ -23,6 +23,6 @@ Cara pemakaian:
 Fitur :
 1. Edge-tts, suara Nanami Jepang, tapi dengan menggunakan bahasa Indonesia. Terdapat mapping bahasa Indonesia ke katakana sehingga pengucapan bahasa Indonesia dengan logat Jepang lebih natural
 2. Persona dan nama yang bisa diubah-ubah
-3. Gambar siluet Safina yang bisa bergerak ketika ngobrol
+3. Gambar siluet Safina menggunakan canvas2d, yang bisa bergerak ketika ngobrol
 4. Akses perintah terminal
 5. Ubah gambar-gambar seperti background sesuai keinginan juga
