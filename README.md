@@ -13,5 +13,16 @@ Cara penginstalan :
    https://console.x.ai/home
    atau semacamnya.
 5. Paste AI grok ke config.env
-6. Jalankan app.py dengan python app.py
-7. Buka localhost:3000
+
+Cara pemakaian:
+1. Jalankan app.py dengan python app.py
+2. Buka localhost:3000
+3. Ubah persona lewat persona.txt sesuai persona yang diinginkan.
+4. Mode Bicara bisa diaktifkan lewat tombol
+
+Fitur :
+1. Edge-tts, suara Nanami Jepang, tapi dengan menggunakan bahasa Indonesia. Terdapat mapping bahasa Indonesia ke katakana sehingga pengucapan bahasa Indonesia dengan logat Jepang lebih natural
+2. Persona dan nama yang bisa diubah-ubah
+3. Gambar siluet Safina yang bisa bergerak ketika ngobrol
+4. Akses perintah terminal
+5. Ubah gambar-gambar seperti background sesuai keinginan juga
