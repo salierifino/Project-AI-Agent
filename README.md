@@ -1,6 +1,6 @@
 # Project-AI-Agent
 
-Safina AI agent, adalah sebuah AI berbasis python-flask dan web GUI yang terintegrasi dengan tools dan terminal melalui browser.
+Fina AI agent, adalah sebuah AI berbasis python-flask dan web GUI yang terintegrasi dengan tools dan terminal melalui browser.
 
 Cara penginstalan :
 1. Install semua file itu dan taruh dalam folder yang sama.
