@@ -6,7 +6,7 @@ let bgctx = bgcanvas.getContext("2d");
 bgcanvas.width = 400;
 bgcanvas.height =  bgcanvas.width *1.5;
 
-canvas.width = 200;
+canvas.width = 300;
 canvas.height =  canvas.width *1.5;
 
 
