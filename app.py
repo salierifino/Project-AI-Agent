@@ -22,7 +22,7 @@ def get_api():
 
 
 URL = "https://api.groq.com/openai/v1/chat/completions"
-MODEL = "llama-3.3-70b-versatile"
+MODEL = "openai/gpt-oss-20b" #"llama-3.3-70b-versatile" sudah ditarik
 
 MEMORY_FILE = os.path.expanduser("~/.ai_memory.json")
 VOICE = "ja-JP-NanamiNeural"
