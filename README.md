@@ -10,7 +10,7 @@ Cara penginstalan :
    pip install flask requests edge-tts
    ```
 4. Dapatkan AI grok lewat
-   https://console.x.ai/home
+   https://console.groq.com/keys
    atau semacamnya.
 5. Paste AI grok ke config.env
 
